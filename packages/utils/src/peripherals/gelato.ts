@@ -67,7 +67,8 @@ const EquivalentChainsForTestnetEstimate: Record<number, number> = {
 /// MARK - This is used for testnets and mainnets which aren't being supported by gelato
 const EquivalentChainsForGelato: Record<number, number> = {
   // MAINNETS
-  59140: 42161, // linea
+  59144: 42161, // linea
+  1088: 42161, // metis
   34443: 42161, // mode
 
   // LOCALNETS
@@ -93,6 +94,7 @@ const EquivalentChainsForGelato: Record<number, number> = {
   31337: 1,
   31338: 1,
   31339: 1,
+  196: 1,
 };
 
 /**

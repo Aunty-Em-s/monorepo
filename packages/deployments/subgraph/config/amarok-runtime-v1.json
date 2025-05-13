@@ -168,6 +168,48 @@
     ]
   },
   {
+    "subgraphName": "connext/amarok-runtime-v1-xlayer",
+    "network": "xlayer",
+    "source": [
+      {
+        "name": "Connext",
+        "address": "0x63A4fdD5184c6cCDF9c8e550c02bC815b687d7aC",
+        "startBlock": 258536
+      },
+      {
+        "name": "SpokeConnector",
+        "address": "0xcF627F20CdCECd11AF54143B81B4C7ae1e8D6ea1",
+        "startBlock": 258505
+      },
+      {
+        "name": "MerkleTreeManager",
+        "address": "0x4d145AAb8411B3680B251cE3B0e51129e0A5651c",
+        "startBlock": 258501
+      }
+    ]
+  },
+  {
+    "subgraphName": "connext/amarok-runtime-v1-metis",
+    "network": "metis",
+    "source": [
+      {
+        "name": "Connext",
+        "address": "0x6B142227A277CE62808E0Df93202483547Ec0188",
+        "startBlock": 12940172
+      },
+      {
+        "name": "SpokeConnector",
+        "address": "0xbe9be105e64Ba861fE17e75c1cB622fD56eCd82D",
+        "startBlock": 12939905
+      },
+      {
+        "name": "MerkleTreeManager",
+        "address": "0x2C149ffebf7a4a5CE72a65280Cd5Af971f2D78B2",
+        "startBlock": 12939902
+      }
+    ]
+  },
+  {
     "subgraphName": "connext/nxtp-amarok-runtime-v1-goerli",
     "network": "goerli",
     "source": [

@@ -1,6 +1,6 @@
 {
   "name": "@connext/smart-contracts",
-  "version": "2.5.0-alpha.1",
+  "version": "2.5.0-alpha.7",
   "description": "",
   "scripts": {
     "test": "yarn forge test --no-match-path '*/{fork,integration}/**.sol'",
@@ -25,6 +25,7 @@
     "size": "hardhat size-contracts",
     "initialize": "ts-node ./src/cli/init/main.ts",
     "ownership": "ts-node ./src/cli/ownership/main.ts",
+    "safe": "ts-node ./src/cli/safes/main.ts",
     "switch": "ts-node ./src/cli/op-mode/main.ts",
     "firedrill": "ts-node ./src/cli/watcher/main.ts",
     "devnet:spawn": "ts-node ./src/devnet/spawnDevnet.ts",
@@ -50,13 +51,13 @@
   "author": "Connext",
   "license": "ISC",
   "dependencies": {
-    "@eth-optimism/sdk": "3.2.0"
+    "@eth-optimism/sdk": "3.3.2"
   },
   "devDependencies": {
     "@arbitrum/sdk": "3.1.11",
     "@certusone/wormhole-sdk": "0.9.21",
     "@connext/nxtp-utils": "workspace:*",
-    "@consensys/linea-sdk": "0.1.6",
+    "@consensys/linea-sdk": "0.3.0",
     "@gelatonetwork/relay-context": "2.1.0",
     "@mantleio/sdk": "1.0.0",
     "@matterlabs/hardhat-zksync-deploy": "0.6.3",

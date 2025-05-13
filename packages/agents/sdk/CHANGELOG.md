@@ -2,6 +2,14 @@
 
 ## Next Release
 
+## 2.5.0-alpha.8
+
+- Fix estimates for Metis
+
+## 2.5.0-alpha.6
+
+- Better error log in txservice
+
 ## 2.5.0-alpha.4
 
 - `getLatestAssetPrice`: Added to fetch prices from Cartographer
